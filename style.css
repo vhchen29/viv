@@ -1,0 +1,52 @@
+:root {
+  --ice: #F5FAFB;
+  --blue: #0D61D6;
+  --navy: #273E69;
+
+}
+
+body {
+    margin: 0;
+}
+/* 
+#left{
+    min-height: 100vh;
+} */
+
+#about{
+    box-sizing: border-box;
+    position: fixed;
+    width: 50vw;
+    height: 75vh;
+    top: 0;
+    left: 0;
+    border: 4px var(--blue) solid;
+    background: var(--ice);
+    padding: 20px;
+}
+
+#contact{
+    box-sizing: border-box;
+    position: fixed;
+    width: 50vw;
+    height: 25vh;
+    bottom: 0;
+    left: 0;
+    border: 4px var(--blue) solid;
+    border-top: none;
+    background: var(--ice);
+    padding: 20px; 
+}
+
+#work{
+    box-sizing: border-box;
+    position: fixed;
+    width: 50vw;
+    height: 100vh;
+    top: 0;
+    left: 50vw;
+    border: 4px var(--blue) solid;
+    border-left: none;
+    background: var(--ice);
+    padding: 20px;
+}
