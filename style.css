@@ -11,8 +11,14 @@ body {
     font-family: sans-serif;
     color: var(--ice);
     background: var(--blue);
-    padding: 45vh 0;
     text-align: center;
+}
+
+img {
+  max-width: 70vw; /* Image will shrink but never exceed its container's width */
+  height: auto;    /* Maintains the original aspect ratio */
+  display: block;
+  margin: 20px auto;  /* Centers the image if it's a block element */
 }
 
 #home{
@@ -20,6 +26,8 @@ body {
     position: fixed;
     width: 100vw;
     height: 100vh;
+    padding: 45vh;
+
    
 }
 
