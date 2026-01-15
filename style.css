@@ -1,19 +1,30 @@
+
 :root {
   --ice: #F5FAFB;
   --blue: #0D61D6;
   --navy: #273E69;
-
 }
+
 
 body {
     margin: 0;
+    font-family: sans-serif;
+    color: var(--ice);
+    background: var(--blue);
+    padding: 45vh 0;
+    text-align: center;
 }
-/* 
-#left{
-    min-height: 100vh;
-} */
 
-#about{
+#home{
+    box-sizing: border-box;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+   
+}
+
+
+/* #about{
     box-sizing: border-box;
     position: fixed;
     width: 50vw;
@@ -49,4 +60,4 @@ body {
     border-left: none;
     background: var(--ice);
     padding: 20px;
-}
+} */
