@@ -1,22 +1,29 @@
 
 :root {
-  --ice: #F5FAFB;
-  --blue: #0D61D6;
-  --navy: #273E69;
+  --light-blue: #97D2F4;
+  --blue: #284AAA;
+  --purple: #292449;
+  --dusty-purple: #3E3A5B;
+}
+
+@font-face {
+    font-family: "RISD Sans";
+    src: url("assets/fonts/RISD_Sans_Variable.ttf") format("truetype");
+
 }
 
 
 
 ::-webkit-scrollbar {
-    width: 12px;
+    width: 14px;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: transparent;
+    background-color: var(--purple) ;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: var(--ice);
+    background-color: var(--light-blue);
     border-radius: 12px;
    
 }
@@ -25,13 +32,12 @@
 body {
     margin: 0;
     font-family: sans-serif;
-    color: var(--ice);
+    color: white;
     background: var(--blue);
     text-align: center;
 }
 
 
-  
 
 #home{
     box-sizing: border-box;
@@ -47,28 +53,39 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 100vw;
-    height: 60px;
-    background-color: var(--navy);
+    height: 80px;
+    background-color: var(--purple);
     top: 0;
     z-index: 1000;
+
 }
 
 .header-left {
     margin-left: 20px;
+    font-family: "RISD Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+
 }
 
 .header-center {
+    position: absolute;
+    left: 50%;
     display:flex;
     align-items: center;
-    justify-content: space-between;
-
 }
 
 .dropdown-btn {
-    background: none;
-    border: none;
-    color: var(--ice);
+    background: var(--blue);
+    border-radius: 30px;
+    border: white 2px solid;
+    padding: 10px;
+    color: white;
     font-size: 16px;
+    font-family: "RISD Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 320;
+    letter-spacing: 1px;
 }
 
 .dropdown-content {
@@ -76,13 +93,21 @@ body {
     position: absolute;
     top: 100%;
     left: 50%;
-    background-color: var(--navy);
-    min-width: 160px;
+    background-color: var(--light-blue);
+    min-width: 100px;
     height: auto;
     width: 25vw;
     z-index: 999;
     text-align: left;
     padding: 25px;
+    padding-left: 40px; 
+
+    font-family: "RISD Sans", sans-serif;
+    color: var(--purple);
+    font-size: 16px;
+    font-weight: 310;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
 }
 
 .dropdown-content input {
@@ -95,6 +120,7 @@ body {
 
 .pages {
     padding-top: 80px;
+    padding-bottom: 40px;
 
 }
 
