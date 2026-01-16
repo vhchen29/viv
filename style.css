@@ -99,7 +99,7 @@ body {
     width: 25vw;
     z-index: 999;
     text-align: left;
-    padding: 25px;
+    padding: 20px;
     padding-left: 40px; 
 
     font-family: "RISD Sans", sans-serif;
@@ -115,6 +115,20 @@ body {
   height: 100%;
   box-sizing: border-box;
   font-size: 14px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 1vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "RISD Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    z-index: 1000;
 }
 
 
