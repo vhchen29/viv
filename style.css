@@ -104,8 +104,8 @@ body {
     width: 20vw;
     z-index: 999;
     text-align: left;
-    padding: 20px;
-    padding-left: 40px; 
+    /* padding: 20px; */
+    padding: 20%;
 
     font-family: "RISD Sans", sans-serif;
     color: var(--purple);
