@@ -4,6 +4,7 @@
   --blue: #284AAA;
   --purple: #292449;
   --dusty-purple: #3E3A5B;
+  --dusty-blue: #4765BA;
 }
 
 @font-face {
@@ -88,15 +89,19 @@ body {
     letter-spacing: 1px;
 }
 
+.dropdown-btn:hover {
+    background: var(--dusty-blue);
+    cursor: pointer;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
     top: 100%;
     left: 50%;
     background-color: var(--light-blue);
-    min-width: 100px;
     height: auto;
-    width: 25vw;
+    width: 20vw;
     z-index: 999;
     text-align: left;
     padding: 20px;
